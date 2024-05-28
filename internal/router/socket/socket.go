@@ -21,7 +21,7 @@ func Initialize(c *fiber.Ctx) error {
 }
 
 func Handle(c *websocket.Conn) {
-	log.Println(c.Locals("allowed"))
+	log.Println(c.Locals("Allowed"))
 
 	var (
 		mt  int
