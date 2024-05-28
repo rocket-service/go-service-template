@@ -7,8 +7,7 @@ ws = create_connection("ws://localhost:3071/ws/1")
 ws.send("Hello, World")
 
 # Receive result returned from web-socket server
-result = ws.recv()
-print("Received: '%s'" % result)
+print(f'Received: {ws.recv()}')
 
 # Close our connection
 ws.close()

@@ -1,2 +1,2 @@
 Required package: 
-``` pip install websocket-client```
+```pip install websocket-client```
